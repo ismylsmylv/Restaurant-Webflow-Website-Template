@@ -1,0 +1,90 @@
+.navbar {
+    background-color: #292E36;
+    padding: 50px 10px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .call {
+            padding: 20px 40px;
+            border: 1px solid #E1B168;
+            transition: 200ms linear;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                background-color: #E1B168;
+            }
+        }
+
+        .logo {
+            height: 130px;
+            width: auto;
+            object-fit: cover;
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 45px;
+
+            .shop {
+                background-color: transparent;
+                border: none;
+            }
+
+            .reserve {
+                background-color: #E1B168;
+                border: none;
+                padding: 20px 60px;
+                font-size: 20px;
+                color: #292E36;
+
+            }
+        }
+    }
+}
+
+.navs {
+    background-color: #292E36;
+    border: 1px solid #40464F;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 0;
+
+        .btns {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+            button {
+                color: #DEDEDE;
+                background-color: transparent;
+                border: none;
+                font-size: 18px;
+                text-transform: capitalize;
+                cursor: pointer;
+                transition: 200ms linear;
+
+                &:hover {
+                    color: #E1B168;
+                }
+            }
+        }
+
+        .socials {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+}
