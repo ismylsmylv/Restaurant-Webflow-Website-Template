@@ -1,0 +1,162 @@
+.AboutHero {
+    padding: 200px 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+
+        .left {
+
+            .subText {
+                font-family: Josefin Sans;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 11.57px;
+                letter-spacing: 0.27em;
+                text-transform: uppercase;
+                border-top: 1px solid #E1B168;
+                border-bottom: 1px solid #E1B168;
+                width: fit-content;
+                padding: 5px;
+            }
+
+            .head {
+                margin: 20px 0;
+                font-family: Cormorant Infant;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 30.84px;
+                text-align: left;
+            }
+
+            .text {
+                color: #555555;
+                width: 40%;
+                text-align: left;
+                margin-bottom: 30px;
+            }
+
+            .sign {
+                margin-top: 30px;
+
+                .signName {
+                    font-family: Josefin Sans;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 25.3px;
+                    text-align: left;
+
+                }
+
+                .signature {
+                    font-family: Allison;
+                    font-size: 60px;
+                    font-weight: 400;
+                    line-height: 63.25px;
+                    text-align: left;
+                    color: #292E36;
+                }
+            }
+
+            .about {
+                margin-top: 30px;
+                background-color: transparent;
+                border: 1px solid #E1B168;
+                padding: 20px 40px;
+                color: #E1B168;
+                cursor: pointer;
+                transition: 200ms linear;
+                font-family: Josefin Sans;
+                font-size: 20px;
+                font-weight: 500;
+                text-align: center;
+
+                &:hover {
+                    background-color: #E1B168;
+                    color: white;
+                }
+            }
+        }
+
+        .right {
+            width: 550px;
+            object-fit: cover;
+            height: 640px;
+            position: relative;
+
+            .AboutCafe {
+                border-top-right-radius: 50%;
+                z-index: 100;
+            }
+
+            .Pattern {
+                z-index: -1;
+                position: absolute;
+                top: 0;
+                right: -120px;
+            }
+
+            .reviewCard {
+                padding: 40px 60px;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                width: 400px;
+                position: absolute;
+                left: -35%;
+                bottom: -10%;
+                z-index: 20;
+                background-color: white;
+
+                .upper {
+                    display: flex;
+                    align-items: center;
+                    justify-content: left;
+                    gap: 20px;
+                    margin-bottom: 20px;
+
+                    img {
+                        height: 70px;
+                        width: 70px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    .names {
+
+                        .name {
+                            font-family: Cormorant Infant;
+                            font-size: 22px;
+                            font-weight: 700;
+                            text-align: left;
+                            color: #292E36;
+                        }
+
+                        .role {
+                            font-family: Josefin Sans;
+                            font-size: 18px;
+                            text-align: left;
+                            color:
+                                #4A4A4A;
+                        }
+                    }
+
+                    .text {
+                        font-family: Josefin Sans;
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 37px;
+                        text-align: left;
+                        color: #555555;
+                    }
+                }
+
+                .stars {
+                    margin-top: 20px;
+                    display: flex;
+                    gap: 5px;
+                }
+            }
+        }
+    }
+}
