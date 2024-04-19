@@ -5,6 +5,7 @@ import UpperAbout from "../../components/upperabout";
 import LowerAbout from "../../components/lowerabout";
 import Menu from "../../components/menu";
 import Feedback from "../../components/feedback";
+import Placeholder from "../../components/placeholder";
 
 type Props = {};
 
@@ -17,6 +18,7 @@ function Home({}: Props) {
       <LowerAbout />
       <Menu />
       <Feedback />
+      <Placeholder />
       home
     </div>
   );
