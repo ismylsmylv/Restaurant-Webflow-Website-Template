@@ -8,6 +8,7 @@ import Feedback from "../../components/feedback";
 import Placeholder from "../../components/placeholder";
 import Offers from "../../components/offers";
 import Populars from "../../components/populars";
+import Services from "../../components/services";
 
 type Props = {};
 
@@ -23,6 +24,7 @@ function Home({}: Props) {
       <Placeholder />
       <Offers />
       <Populars />
+      <Services />
     </div>
   );
 }
