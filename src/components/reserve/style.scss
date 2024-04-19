@@ -1,0 +1,97 @@
+.Reserve {
+    background-image: url('../../assets/img/reserve.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    width: 100%;
+    background-color: rgba(77, 82, 86, 0.9);
+    background-blend-mode: multiply;
+
+    .container {
+        background-color: #292E36F2;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 150px;
+        color: white;
+        max-width: 1100px !important;
+
+
+        .subText {
+            font-family: Josefin Sans;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 11.57px;
+            letter-spacing: 0.27em;
+            text-transform: uppercase;
+            border-top: 1px solid #E1B168;
+            border-bottom: 1px solid #E1B168;
+            width: fit-content;
+            padding: 5px;
+        }
+
+        .head {
+            margin: 20px 0;
+            margin-bottom: 40px;
+            font-family: Cormorant Infant;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 30.84px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            flex-wrap: wrap;
+            gap: 25px;
+
+            :nth-child(-n + 2) {
+                width: 45%;
+            }
+
+            input {
+                padding: 20px;
+                width: auto;
+                border: 1px solid #858585;
+                background-color: transparent;
+                font-family: Josefin Sans;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 27.83px;
+                text-align: left;
+                color: white;
+                width: 30%;
+
+                &::placeholder {
+                    color: white;
+
+                }
+
+            }
+
+            button {
+                margin: 0 auto;
+                color: #292E36;
+                font-family: Josefin Sans;
+                font-size: 22px;
+                font-weight: 500;
+                line-height: 27.83px;
+                text-align: center;
+                padding: 20px 40px;
+                background-color: white;
+                cursor: pointer;
+                border: none;
+                transition: 200ms linear;
+
+                &:hover {
+                    background-color: #E1B168;
+                }
+            }
+        }
+    }
+}

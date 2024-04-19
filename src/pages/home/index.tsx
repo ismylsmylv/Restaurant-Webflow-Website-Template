@@ -10,6 +10,7 @@ import Offers from "../../components/offers";
 import Populars from "../../components/populars";
 import Services from "../../components/services";
 import Blog from "../../components/blog";
+import Reserve from "../../components/reserve";
 
 type Props = {};
 
@@ -27,6 +28,7 @@ function Home({}: Props) {
       <Populars />
       <Services />
       <Blog />
+      <Reserve />
     </div>
   );
 }
