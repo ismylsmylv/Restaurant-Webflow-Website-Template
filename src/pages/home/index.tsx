@@ -7,6 +7,7 @@ import Menu from "../../components/menu";
 import Feedback from "../../components/feedback";
 import Placeholder from "../../components/placeholder";
 import Offers from "../../components/offers";
+import Populars from "../../components/populars";
 
 type Props = {};
 
@@ -21,6 +22,7 @@ function Home({}: Props) {
       <Feedback />
       <Placeholder />
       <Offers />
+      <Populars />
     </div>
   );
 }
