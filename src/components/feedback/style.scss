@@ -5,6 +5,13 @@
     .container {
         padding: 100px 0;
 
+        .headings {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
         .subText {
             font-family: Josefin Sans;
             font-size: 15px;

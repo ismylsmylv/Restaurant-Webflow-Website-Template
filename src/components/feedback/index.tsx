@@ -11,11 +11,13 @@ function Feedback() {
   return (
     <div className="Feedback">
       <div className="container">
-        <div className="subText">Testimonial</div>
-        <div className="heading">What our clients say</div>
-        <div className="text">
-          We love to hear from customers, so please leave a comment or say hello
-          in an email.
+        <div className="headings">
+          <div className="subText">Testimonial</div>
+          <div className="heading">What our clients say</div>
+          <div className="text">
+            We love to hear from customers, so please leave a comment or say
+            hello in an email.
+          </div>
         </div>
         <div className="swiperContainer">
           <Swiper

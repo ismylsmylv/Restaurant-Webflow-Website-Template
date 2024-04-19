@@ -5,6 +5,7 @@ import Footer from "../../components/footer";
 import AboutHero from "../../components/aboutHero";
 import MenuTypes from "../../components/menuTypes";
 import Chiefs from "../../components/chiefs";
+import FeedbackAbout from "../../components/feedbackAbout";
 
 type Props = {};
 
@@ -15,6 +16,7 @@ function About({}: Props) {
       <AboutHero />
       <MenuTypes />
       <Chiefs />
+      <FeedbackAbout />
       <Reserve />
       <Footer />
     </div>
