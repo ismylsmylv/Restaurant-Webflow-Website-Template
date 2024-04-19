@@ -1,20 +1,18 @@
-import React from "react";
-import Navbar from "../../components/navbar";
+import Blog from "../../components/blog";
+import Feedback from "../../components/feedback";
+import Footer from "../../components/footer";
 import Hero from "../../components/hero";
-import UpperAbout from "../../components/upperabout";
 import LowerAbout from "../../components/lowerabout";
 import Menu from "../../components/menu";
-import Feedback from "../../components/feedback";
-import Placeholder from "../../components/placeholder";
+import Navbar from "../../components/navbar";
 import Offers from "../../components/offers";
+import Placeholder from "../../components/placeholder";
 import Populars from "../../components/populars";
-import Services from "../../components/services";
-import Blog from "../../components/blog";
 import Reserve from "../../components/reserve";
+import Services from "../../components/services";
+import UpperAbout from "../../components/upperabout";
 
-type Props = {};
-
-function Home({}: Props) {
+function Home() {
   return (
     <div>
       <Navbar />
@@ -29,6 +27,7 @@ function Home({}: Props) {
       <Services />
       <Blog />
       <Reserve />
+      <Footer />
     </div>
   );
 }

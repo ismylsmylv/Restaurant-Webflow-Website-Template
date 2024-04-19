@@ -1,0 +1,128 @@
+.Footer {
+    background-color: #292E36;
+    padding: 50px 10px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .feed {
+            font-family: Josefin Sans;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 27.83px;
+            text-align: center;
+            color: white;
+
+            &:hover {
+                background-color: #E1B168;
+            }
+        }
+
+        .logo {
+            height: 130px;
+            width: auto;
+            object-fit: cover;
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 45px;
+
+
+            .socials {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+            }
+        }
+    }
+
+
+
+    .navs {
+        background-color: #292E36;
+        color: white;
+        border: none;
+        margin-top: 60px;
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 0;
+
+            .contact,
+            .working {
+                .subText {
+                    font-family: Josefin Sans;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 11.57px;
+                    letter-spacing: 0.27em;
+                    text-transform: uppercase;
+                    border-top: 1px solid #E1B168;
+                    border-bottom: 1px solid #E1B168;
+                    width: fit-content;
+                    padding: 5px;
+                    margin-bottom: 30px;
+                }
+
+                .gold {
+                    color: #E1B168;
+                }
+
+                .space {
+                    margin: 20px 0;
+                }
+            }
+
+            .mail {
+
+                .head {
+                    font-family: Josefin Sans;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 25.3px;
+                    text-align: center;
+                    width: 70%;
+                    margin: 0 auto;
+                    margin-bottom: 30px;
+                }
+
+                form {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    input {
+                        padding: 20px;
+                        border: 1px solid #858585;
+                        background-color: transparent;
+                        width: 80%;
+                        height: 59px;
+
+                        &::placeholder {
+                            color: white;
+                            font-size: 20px;
+                        }
+                    }
+
+                    button {
+                        padding: 20px 70px;
+                        height: 100%;
+                        cursor: pointer;
+                        border: none;
+                        background-color: white;
+                        font-weight: 500;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
