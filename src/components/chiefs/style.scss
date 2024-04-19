@@ -1,0 +1,108 @@
+.Chiefs {
+    padding: 180px 0;
+    background-color: #fff8f5;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #292E36;
+
+        .subText {
+            font-family: Josefin Sans;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 11.57px;
+            letter-spacing: 0.27em;
+            text-transform: uppercase;
+            border-top: 1px solid #E1B168;
+            border-bottom: 1px solid #E1B168;
+            width: fit-content;
+            padding: 5px;
+        }
+
+        .head {
+            margin: 20px 0;
+            font-family: Cormorant Infant;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 30.84px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .text {
+            color: #555555;
+            width: 40%;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .offerList {
+            display: grid;
+            gap: 30px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+            .offerCard {
+                width: 300px;
+
+                img {
+                    height: 300px;
+                    width: 300px;
+                    background-color: #a0aeaf;
+                    object-fit: cover;
+                    object-position: top;
+                }
+
+                .upper {
+                    margin: 20px 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+
+                    .name,
+                    .price {
+                        font-family: Cormorant Infant;
+                        font-size: 30px;
+                        font-weight: 700;
+                        line-height: 23.13px;
+                        text-align: center;
+                        color: #292E36;
+                    }
+
+                }
+
+                .line {}
+
+                .text {
+                    color: #555555;
+                    text-align: center;
+                    width: 100% !important;
+                }
+            }
+        }
+
+        button {
+            border: 1px solid #E1B168;
+            background-color: transparent;
+            cursor: pointer;
+            color: #E1B168;
+            transition: 200ms linear;
+            padding: 20px 50px;
+            margin-top: 40px;
+            font-family: Josefin Sans;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 27.83px;
+            text-align: center;
+            margin-bottom: 100px;
+
+            &:hover {
+                background-color: #E1B168;
+                color: white;
+            }
+        }
+    }
+}
