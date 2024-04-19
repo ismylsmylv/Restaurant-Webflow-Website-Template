@@ -6,6 +6,7 @@ import LowerAbout from "../../components/lowerabout";
 import Menu from "../../components/menu";
 import Feedback from "../../components/feedback";
 import Placeholder from "../../components/placeholder";
+import Offers from "../../components/offers";
 
 type Props = {};
 
@@ -19,7 +20,7 @@ function Home({}: Props) {
       <Menu />
       <Feedback />
       <Placeholder />
-      home
+      <Offers />
     </div>
   );
 }

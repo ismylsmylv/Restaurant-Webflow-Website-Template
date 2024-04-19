@@ -1,0 +1,54 @@
+.Offers {
+    padding: 200px 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #292E36;
+
+        .subText {
+            font-family: Josefin Sans;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 11.57px;
+            letter-spacing: 0.27em;
+            text-transform: uppercase;
+            border-top: 1px solid #E1B168;
+            border-bottom: 1px solid #E1B168;
+            width: fit-content;
+            padding: 5px;
+        }
+
+        .head {
+            margin: 20px 0;
+            font-family: Cormorant Infant;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 30.84px;
+            text-align: center;
+        }
+
+        .text {
+            color: #555555;
+            width: 40%;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .offerList {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            img {
+                height: 400px;
+                object-fit: cover;
+                width: auto;
+                object-position: center;
+            }
+        }
+    }
+}
