@@ -1,0 +1,45 @@
+.Gallery {
+    padding: 200px 0;
+
+    .headings {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .subText {
+        font-family: Josefin Sans;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 11.57px;
+        letter-spacing: 0.27em;
+        text-transform: uppercase;
+        border-top: 1px solid #E1B168;
+        border-bottom: 1px solid #E1B168;
+        width: fit-content;
+        padding: 5px;
+    }
+
+    .heading {
+        font-family: Cormorant Infant;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 30.84px;
+        margin: 20px 0;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+
+        .col {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+}
