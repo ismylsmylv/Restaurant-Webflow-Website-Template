@@ -8,9 +8,7 @@ import Chiefs from "../../components/chiefs";
 import FeedbackAbout from "../../components/feedbackAbout";
 import Gallery from "../../components/gallery";
 
-type Props = {};
-
-function About({}: Props) {
+function AboutPage() {
   return (
     <div>
       <Navbar />
@@ -25,4 +23,4 @@ function About({}: Props) {
   );
 }
 
-export default About;
+export default AboutPage;

@@ -12,14 +12,15 @@ import Reserve from "../../components/reserve";
 import Services from "../../components/services";
 import UpperAbout from "../../components/upperabout";
 
-function Home() {
+function HomePage() {
+  const homeMenu = ["Starters", "Main Dish", "Dessert"];
   return (
     <div>
       <Navbar />
       <Hero />
       <UpperAbout />
       <LowerAbout />
-      <Menu />
+      <Menu menuType={homeMenu} />
       <Feedback />
       <Placeholder />
       <Offers />
@@ -32,4 +33,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;
