@@ -3,7 +3,8 @@ import { RouterProvider } from "react-router-dom";
 import App from "./App.tsx";
 import Navbar from "./components/navbar/index.tsx";
 import "./index.css";
-import router from "./router/routes.jsx";
+import router from "./router/routes.tsx";
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <RouterProvider router={router}>
     <Navbar />
