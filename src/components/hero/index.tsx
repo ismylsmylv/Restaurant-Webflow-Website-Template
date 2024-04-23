@@ -1,9 +1,7 @@
-import React from "react";
-import "./style.scss";
 import HeroImg from "../../assets/img/hero.png";
-type Props = {};
+import "./style.scss";
 
-function Hero({}: Props) {
+function Hero() {
   return (
     <div className="Hero">
       <div className="container">

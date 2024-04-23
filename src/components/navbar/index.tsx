@@ -1,15 +1,14 @@
-import React from "react";
-import { Link, useNavigate } from "react-router-dom";
-import "./style.scss";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaPinterest,
+  FaTwitter,
+} from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 import Logo from "../../assets/img/Logo.png";
-import { FaInstagram } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaPinterest } from "react-icons/fa";
-type Props = {};
-
-function Navbar({}: Props) {
+import "./style.scss";
+function Navbar() {
   const navigate = useNavigate();
   return (
     <>

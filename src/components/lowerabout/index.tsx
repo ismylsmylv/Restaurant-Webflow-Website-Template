@@ -1,9 +1,7 @@
-import React from "react";
-import "./style.scss";
 import AboutImg from "./../../assets/img/about.png";
-type Props = {};
+import "./style.scss";
 
-function LowerAbout({}: Props) {
+function LowerAbout() {
   return (
     <div className="LowerAbout">
       <div className="container">

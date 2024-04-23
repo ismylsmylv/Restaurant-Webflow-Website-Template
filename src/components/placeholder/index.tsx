@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
-import "./style.scss";
+import { useEffect } from "react";
 import PlaceholderImg from "./../../assets/img/placeholder.png";
-type Props = {};
+import "./style.scss";
 
-function Placeholder(imageLink) {
+function Placeholder(imageLink: { imageLink: any }) {
   useEffect(() => {
     console.log(imageLink);
   }, []);

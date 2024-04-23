@@ -20,9 +20,9 @@ function HomePage() {
       <Hero />
       <UpperAbout />
       <LowerAbout />
-      <Menu menuType={homeMenu} />
+      <Menu menuType={homeMenu as any} />
       <Feedback />
-      <Placeholder />
+      <Placeholder imageLink={undefined} />
       <Offers />
       <Populars />
       <Services />

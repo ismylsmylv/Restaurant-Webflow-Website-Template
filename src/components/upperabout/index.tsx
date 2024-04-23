@@ -1,11 +1,9 @@
-import React from "react";
-import "./style.scss";
-import { IoLocationOutline } from "react-icons/io5";
-import { IoIosTimer } from "react-icons/io";
 import { BsFillFileRichtextFill } from "react-icons/bs";
-type Props = {};
+import { IoIosTimer } from "react-icons/io";
+import { IoLocationOutline } from "react-icons/io5";
+import "./style.scss";
 
-function UpperAbout({}: Props) {
+function UpperAbout() {
   return (
     <div className="UpperAbout">
       <div className="container">

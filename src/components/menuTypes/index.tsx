@@ -1,12 +1,10 @@
-import React from "react";
-import "./style.scss";
 import MenuType1 from "../../assets/img/menuType1.svg";
 import MenuType2 from "../../assets/img/menuType2.svg";
 import MenuType3 from "../../assets/img/menuType3.svg";
 import MenuType4 from "../../assets/img/menuType4.svg";
-type Props = {};
+import "./style.scss";
 
-function MenuTypes({}: Props) {
+function MenuTypes() {
   return (
     <div className="MenuTypes">
       <div className="container">

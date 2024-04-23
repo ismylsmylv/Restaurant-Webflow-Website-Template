@@ -1,7 +1,8 @@
-import React from "react";
-import "./style.scss";
 import MenuImg from "./../../assets/img/menu.png";
-type Props = {};
+import "./style.scss";
+type Props = {
+  menuType: string;
+};
 
 function Menu({ menuType }: Props) {
   return (

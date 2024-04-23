@@ -1,10 +1,9 @@
-import React from "react";
-import "./style.scss";
 import GalleryBL from "../../assets/img/galleryBL.png";
 import GalleryBR from "../../assets/img/galleryBR.png";
+import GalleryBig from "../../assets/img/galleryBig.png";
 import GalleryTL from "../../assets/img/galleryTL.png";
 import GalleryTR from "../../assets/img/galleryTR.png";
-import GalleryBig from "../../assets/img/galleryBig.png";
+import "./style.scss";
 
 function Gallery() {
   return (

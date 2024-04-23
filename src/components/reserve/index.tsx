@@ -1,9 +1,6 @@
-import React from "react";
 import "./style.scss";
-import ReserveBg from "../../assets/img/reserve.png";
-type Props = {};
 
-function Reserve({}: Props) {
+function Reserve() {
   return (
     <div className="Reserve">
       <div className="container">

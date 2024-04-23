@@ -1,16 +1,13 @@
-import React from "react";
-import { Link, useNavigate } from "react-router-dom";
-import "./style.scss";
-import { FaCartShopping } from "react-icons/fa6";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaPinterest,
+  FaTwitter,
+} from "react-icons/fa";
 import Logo from "../../assets/img/Logo.png";
-import { FaInstagram } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaPinterest } from "react-icons/fa";
-type Props = {};
+import "./style.scss";
 
-function Footer({}: Props) {
-  const navigate = useNavigate();
+function Footer() {
   return (
     <div className="Footer">
       <div className="container">

@@ -1,10 +1,8 @@
-import React from "react";
-import "./style.scss";
-import ErrorImg from "../../assets/img/error.png";
 import { useNavigate } from "react-router-dom";
-type Props = {};
+import ErrorImg from "../../assets/img/error.png";
+import "./style.scss";
 
-function NotFound({}: Props) {
+function NotFound() {
   const navigate = useNavigate();
   return (
     <div className="NotFound">

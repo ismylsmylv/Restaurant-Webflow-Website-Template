@@ -1,10 +1,6 @@
-import React from "react";
 import "./style.scss";
-import Offer1 from "../../assets/img/offer1.png";
-import Offer2 from "../../assets/img/offer2.png";
-type Props = {};
 
-function Populars({}: Props) {
+function Populars() {
   return (
     <div className="Populars">
       <div className="container">
